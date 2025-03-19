@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaFacebook, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import sanityClient from "../client";
 
