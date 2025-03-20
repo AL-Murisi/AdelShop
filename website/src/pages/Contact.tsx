@@ -1,6 +1,6 @@
 import { FaWhatsapp, FaLocationArrow } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import sanityClient from "../client";
+import sanityClient from "../../client";
 
 export default function Contact() {
   const [postData, setData] = useState([] as any[]);
